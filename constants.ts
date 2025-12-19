@@ -31,7 +31,7 @@ export const OFFERS: Offer[] = [
     description: 'The #1 rated discreet dating app for local meetups. Advanced location matching with end-to-end encryption for total anonymity.',
     category: OfferCategory.DATING,
     // [TODO] 替换下方图片链接
-    imageUrl: 'https://ibb.co/RkTSGGnZ',
+    imageUrl: 'https://i.ibb.co/mV5Brrs1/Screen-Shot-2025-12-19-210720-274.png',
     ctaText: 'View Local Matches',
     // [TODO] 替换下方 # 为你的联盟链接
     affiliateLink: 'https://t.crjmpx.com/279489/10285/39369?bo=2753,2754,2755,2756&po=6456&aff_sub5=SF_006OG000004lmDN',
