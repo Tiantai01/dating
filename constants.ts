@@ -47,7 +47,7 @@ export const OFFERS: Offer[] = [
     imageUrl: 'https://picsum.photos/id/453/600/400',
     ctaText: 'Try VR Free',
     // [TODO] 替换下方 # 为你的联盟链接
-    affiliateLink: '#',
+    affiliateLink: 'https://t.crjmpx.com/279489/7477?aff_sub5=SF_006OG000004lmDN',
     rating: 4.8
   },
   {
