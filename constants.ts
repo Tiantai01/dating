@@ -44,10 +44,10 @@ export const OFFERS: Offer[] = [
     description: 'Next-gen adult VR experiences. Compatible with Oculus and mobile. Immerse yourself in 8K resolution interactive scenarios.',
     category: OfferCategory.GAMES,
     // [TODO] 替换下方图片链接
-    imageUrl: 'https://picsum.photos/id/453/600/400',
+    imageUrl: 'https://i.ibb.co/DPf1HgLW/Screen-Shot-2025-12-19-212748-623.png',
     ctaText: 'Try VR Free',
     // [TODO] 替换下方 # 为你的联盟链接
-    affiliateLink: 'https://t.crjmpx.com/279489/7477?aff_sub5=SF_006OG000004lmDN',
+    affiliateLink: 'https://t.crjmpx.com/279489/10163/38832?aff_sub5=SF_006OG000004lmDN',
     rating: 4.8
   },
   {
@@ -56,10 +56,10 @@ export const OFFERS: Offer[] = [
     description: 'Premium dating for successful professionals. The sophisticated alternative to casual hookup sites, focusing on high-quality connections.',
     category: OfferCategory.DATING,
     // [TODO] 替换下方图片链接
-    imageUrl: 'https://picsum.photos/id/331/600/400',
+    imageUrl: 'https://i.ibb.co/zTV1NhTH/Screen-Shot-2025-12-19-212231-366.png',
     ctaText: 'Join Elite List',
     // [TODO] 替换下方 # 为你的联盟链接
-    affiliateLink: 'https://t.crjmpx.com/279489/7963?bo=2753,2754,2755,2756&aff_sub5=SF_006OG000004lmDN',
+    affiliateLink: 'https://t.crjmpx.com/279489/4593/35135?aff_sub5=SF_006OG000004lmDN',
     rating: 4.6
   }
 ];
