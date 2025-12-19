@@ -31,10 +31,10 @@ export const OFFERS: Offer[] = [
     description: 'The #1 rated discreet dating app for local meetups. Advanced location matching with end-to-end encryption for total anonymity.',
     category: OfferCategory.DATING,
     // [TODO] 替换下方图片链接
-    imageUrl: 'https://picsum.photos/id/64/600/400',
+    imageUrl: 'https://ibb.co/RkTSGGnZ',
     ctaText: 'View Local Matches',
     // [TODO] 替换下方 # 为你的联盟链接
-    affiliateLink: '#',
+    affiliateLink: 'https://t.crjmpx.com/279489/10285/39369?bo=2753,2754,2755,2756&po=6456&aff_sub5=SF_006OG000004lmDN',
     rating: 4.7,
     badge: 'Verified Users'
   },
@@ -59,7 +59,7 @@ export const OFFERS: Offer[] = [
     imageUrl: 'https://picsum.photos/id/331/600/400',
     ctaText: 'Join Elite List',
     // [TODO] 替换下方 # 为你的联盟链接
-    affiliateLink: '#',
+    affiliateLink: 'https://t.crjmpx.com/279489/7963?bo=2753,2754,2755,2756&aff_sub5=SF_006OG000004lmDN',
     rating: 4.6
   }
 ];
