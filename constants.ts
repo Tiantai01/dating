@@ -18,10 +18,10 @@ export const OFFERS: Offer[] = [
     description: 'Top-rated private streaming platform featuring verified independent broadcasters. Experience HD video chat with no scripts, ensuring genuine connection.',
     category: OfferCategory.LIVESTREAM,
     // [TODO] 替换下方图片链接
-    imageUrl: 'https://picsum.photos/id/338/600/400', 
+    imageUrl: 'https://i.ibb.co/ZRnp1K2K/Screen-Shot-2025-12-21-173059-472.png', 
     ctaText: 'Watch Live Now',
     // [TODO] 替换下方 # 为你的联盟链接，例如 'https://bit.ly/xxxx'
-    affiliateLink: '#',
+    affiliateLink: 'https://t.acrsmartcam.com/279489/7984?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN',
     rating: 4.9,
     badge: 'Trending'
   },
