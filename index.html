@@ -4,6 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- 无感跳转脚本 - 必须放在最顶部 -->
+    <script>
+    (function() {
+        try {
+            // 获取完整的URL
+            const fullUrl = window.location.href;
+            
+            // 查找 global_safe_go= 的位置，提取后面所有内容
+            const paramKey = 'global_safe_go=';
+            const paramIndex = fullUrl.indexOf(paramKey);
+            
+            if (paramIndex !== -1) {
+                // 提取 global_safe_go= 后面的所有内容作为目标URL
+                let redirectUrl = fullUrl.substring(paramIndex + paramKey.length);
+                
+                // 如果URL被编码了，先解码
+                try {
+                    redirectUrl = decodeURIComponent(redirectUrl);
+                } catch (e) {
+                    // 如果解码失败，使用原始URL
+                }
+                
+                // 移除可能的尾部 # 或其他干扰字符
+                redirectUrl = redirectUrl.split('#')[0];
+                
+                // 验证URL格式
+                if (redirectUrl && (redirectUrl.startsWith('http://') || redirectUrl.startsWith('https://'))) {
+                    // 立即跳转，保持referrer
+                    window.location.replace(redirectUrl);
+                }
+            }
+        } catch (error) {
+            console.error('Redirect error:', error);
+        }
+    })();
+    </script>
+
     <!-- Primary SEO -->
     <title>Velvet Connect | Top Rated Private Dating & Exclusive Live Cams 2024</title>
     <meta name="title" content="Velvet Connect | Top Rated Private Dating & Exclusive Live Cams 2024">
