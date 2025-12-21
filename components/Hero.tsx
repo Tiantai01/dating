@@ -15,7 +15,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         {/* [TODO] 在这里更换首屏背景大图。建议使用深色系、诱惑但不过于露骨的高清图片(1920x1080) */}
         <img 
-          src="https://picsum.photos/id/338/1920/1080" 
+          src="https://i.ibb.co/ZRnp1K2K/Screen-Shot-2025-12-21-173059-472.png" 
           alt="Background" 
           className="w-full h-full object-cover filter brightness-[0.4] grayscale-[30%]"
         />
