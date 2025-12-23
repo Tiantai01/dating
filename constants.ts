@@ -21,7 +21,7 @@ export const OFFERS: Offer[] = [
     imageUrl: 'https://i.ibb.co/ZRnp1K2K/Screen-Shot-2025-12-21-173059-472.png', 
     ctaText: 'Watch Live Now',
     // [TODO] 替换下方 # 为你的联盟链接，例如 'https://bit.ly/xxxx'
-    affiliateLink: 'https://t.acrsmartcam.com/279489/7984?bo=2779,2778,2777,2776,2775&aff_sub5=SF_006OG000004lmDN',
+    affiliateLink: 'https://t.ajrkm1.com/279489/8780/36934?aff_sub5=SF_006OG000004lmDN',
     rating: 4.9,
     badge: 'Trending'
   },
